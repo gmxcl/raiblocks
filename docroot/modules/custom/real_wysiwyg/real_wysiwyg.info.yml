@@ -1,0 +1,9 @@
+name: 'Real Wysiwyg'
+description: 'Wysiwyg editor for Real Media Network.'
+type: module
+core: 8.x
+dependencies:
+  - ckeditor
+  - editor
+  - filter
+version: 1.0.0
