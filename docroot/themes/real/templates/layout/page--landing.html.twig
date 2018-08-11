@@ -25,8 +25,8 @@
 
   <!-- Start: Banner -->
     {% if page.banner %}
-      <div class="container">
-        <div class="banner">
+      <div class="banner">
+        <div class="container">
           <div class="row">
             <div class="col-md-12">
               {{ page.banner }}
@@ -53,36 +53,16 @@
 </header>
 
   <!-- start container -->
-  <div class="container content">
-    <div class="row">
-
-      <!--- Start Left SideBar -->
-      {% if page.sidebar_first %}
-          <div class = {{sidebarfirst}} >
-            {{ page.sidebar_first }}
-          </div>
-      {% endif %}
-      <!---End Right SideBar -->
 
       <!--- Start content -->
       {% if page.content %}
-          <div class={{contentlayout}}>
+          <div class="landingcontent">
             {{ page.content }}
           </div>
       {% endif %}
       <!---End content -->
 
-      <!--- Start Right SideBar -->
-      {% if page.sidebar_second %}
-          <div class={{sidebarsecond}}>
-            {{ page.sidebar_second }}
-          </div>
-      {% endif %}
-      <!---End Right SideBar -->
-
-  </div>      
-</div>
-    <!--end container -->
+  <!--end container -->
 
   <div class="footer text-center">
     <div class="container">
@@ -93,3 +73,6 @@
       </div>
     </div>
   </div>
+
+{{ dump() }}
+{{ dump(variable_name) }}

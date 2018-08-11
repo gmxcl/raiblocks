@@ -49,28 +49,17 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
 
-
-    <div class="media">
-
-      <span class="pull-right">
-        {{ content.field_imagen }}
-      </span>
-      <span class="">
-        {{ content.field_texto }}
-      </span>
-
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+        {{ content.field_leftcol }}
+        </div>
+        <div class="col-md-6">
+        {{ content.field_rightcol }}
+        </div>
+      </div>
     </div>
 
     {% endblock %}
   </div>
 {% endblock paragraph %}
-
-
-
-
-
-
-
-
-

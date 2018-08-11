@@ -30,7 +30,6 @@ img { max-width: 100%; }
 .nav { display: block; }
 
 nav img {
-  padding: 20px 0px 0px 0px;
   width: 180px;
 }
 
@@ -149,3 +148,23 @@ blockquote span {
 }
 
 /* user-login-form ends */
+
+/* Styles */
+
+.banner {
+  background-color: #333031;
+  color: #fff;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.paragraph--type--paronecol {
+  padding: 60px 0;
+}
+.paragraph--type--partwocol {
+  padding: 60px 0;
+}
+.paragraph--type--parthreecol {
+  padding: 60px 0;
+}
+/* Styles */
