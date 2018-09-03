@@ -1,0 +1,20 @@
+uuid: bc307c94-87cb-4648-a108-ebdc5bbd1a26
+langcode: es
+status: true
+dependencies:
+  theme:
+    - real
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: real_page_title
+theme: real
+region: banner
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  provider: core
+  label_display: '0'
+visibility: {  }

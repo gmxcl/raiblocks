@@ -1,0 +1,30 @@
+uuid: 73cd45c6-8036-4443-95b7-be572e469df1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.partwocol.field_leftcol
+    - field.field.paragraph.partwocol.field_rightcol
+    - paragraphs.paragraphs_type.partwocol
+  module:
+    - text
+id: paragraph.partwocol.default
+targetEntityType: paragraph
+bundle: partwocol
+mode: default
+content:
+  field_leftcol:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_rightcol:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

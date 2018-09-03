@@ -1,0 +1,107 @@
+uuid: 9a91d11c-bdaf-41bd-9161-a6e4421159bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.parthreecol.field_centercol
+    - field.field.paragraph.parthreecol.field_leftcol
+    - field.field.paragraph.parthreecol.field_rightcol
+    - paragraphs.paragraphs_type.parthreecol
+  module:
+    - content_moderation
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_parthreecol:
+      children:
+        - group_leftcol
+        - group_centercol
+        - group_rightcol
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: 'III columnas'
+    group_leftcol:
+      children:
+        - field_leftcol
+      parent_name: group_parthreecol
+      weight: 4
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: 'Columna izquierda'
+    group_rightcol:
+      children:
+        - field_rightcol
+      parent_name: group_parthreecol
+      weight: 6
+      format_type: tab
+      format_settings:
+        label: 'Columna derecha'
+        formatter: open
+        description: ''
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Columna derecha'
+    group_centercol:
+      children:
+        - field_centercol
+      parent_name: group_parthreecol
+      weight: 5
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Columna central'
+id: paragraph.parthreecol.default
+targetEntityType: paragraph
+bundle: parthreecol
+mode: default
+content:
+  field_centercol:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_leftcol:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_rightcol:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 7
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,31 @@
+uuid: 4612f7fc-5472-42e3-b563-ebb20e18da29
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.landing.field_contenido
+    - node.type.landing
+  module:
+    - entity_reference_revisions
+    - user
+id: node.landing.default
+targetEntityType: node
+bundle: landing
+mode: default
+content:
+  field_contenido:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

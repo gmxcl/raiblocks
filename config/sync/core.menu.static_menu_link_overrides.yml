@@ -1,0 +1,10 @@
+definitions:
+  filter__tips_all:
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: false
+    weight: 0
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+langcode: es

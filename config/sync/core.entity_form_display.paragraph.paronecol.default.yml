@@ -1,0 +1,26 @@
+uuid: 1cefd5bf-d48e-41c7-90d6-05c1d05288da
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paronecol.field_onecol
+    - paragraphs.paragraphs_type.paronecol
+  module:
+    - text
+id: paragraph.paronecol.default
+targetEntityType: paragraph
+bundle: paronecol
+mode: default
+content:
+  field_onecol:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

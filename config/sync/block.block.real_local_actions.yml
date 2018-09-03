@@ -1,0 +1,20 @@
+uuid: 98e0b9a5-637c-4c26-af05-1c3b2635227c
+langcode: es
+status: true
+dependencies:
+  theme:
+    - real
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: real_local_actions
+theme: real
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones primarias de administración'
+  provider: core
+  label_display: '0'
+visibility: {  }

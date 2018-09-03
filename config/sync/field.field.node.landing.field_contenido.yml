@@ -1,0 +1,35 @@
+uuid: 5f459e68-2f75-4867-a35b-e91e4a024f1c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contenido
+    - node.type.landing
+  module:
+    - entity_reference_revisions
+id: node.landing.field_contenido
+field_name: field_contenido
+entity_type: node
+bundle: landing
+label: contenido
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      parthreecol:
+        weight: 4
+        enabled: false
+      paronecol:
+        weight: 5
+        enabled: false
+      partwocol:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

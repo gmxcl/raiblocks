@@ -1,0 +1,22 @@
+uuid: c4e47e03-dd0d-41c1-97f7-ede2a94ed75d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paronecol.field_onecol
+    - paragraphs.paragraphs_type.paronecol
+  module:
+    - text
+id: paragraph.paronecol.default
+targetEntityType: paragraph
+bundle: paronecol
+mode: default
+content:
+  field_onecol:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

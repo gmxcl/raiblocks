@@ -1,0 +1,22 @@
+uuid: b77de4f6-edda-421a-b6f4-9c1cac94ae85
+langcode: es
+status: true
+dependencies:
+  theme:
+    - real
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: real_local_tasks
+theme: real
+region: banner
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Pestañas
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

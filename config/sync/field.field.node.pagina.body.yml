@@ -1,0 +1,22 @@
+uuid: 96121503-bfd2-4636-84db-a3c48553e501
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.pagina
+  module:
+    - text
+id: node.pagina.body
+field_name: body
+entity_type: node
+bundle: pagina
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
