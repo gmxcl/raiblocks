@@ -1,0 +1,43 @@
+uuid: 3be3701d-86b0-4c94-b0b9-3556635f3bf6
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.1024x576
+    - image.style.1366x768
+    - image.style.1600x900
+    - image.style.640x360
+    - image.style.768x432
+    - image.style.large
+  theme:
+    - real
+id: banner
+label: Banner
+image_style_mappings:
+  -
+    breakpoint_id: real.tv
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 1600x900
+  -
+    breakpoint_id: real.desktop
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 1366x768
+  -
+    breakpoint_id: real.tablet
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 1024x576
+  -
+    breakpoint_id: real.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 768x432
+  -
+    breakpoint_id: real.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 640x360
+breakpoint_group: real
+fallback_image_style: large

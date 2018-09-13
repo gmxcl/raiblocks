@@ -1,0 +1,15 @@
+uuid: 1f4624e9-ef32-4717-a37a-0992946bc663
+langcode: es
+status: true
+dependencies: {  }
+name: 1600x900
+label: 1600x900
+effects:
+  d95d5eec-de97-4931-aa8e-8507f93cbd82:
+    uuid: d95d5eec-de97-4931-aa8e-8507f93cbd82
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 900
+      anchor: center-center

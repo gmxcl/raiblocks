@@ -1,0 +1,15 @@
+uuid: 7656363a-64c7-4548-8706-5c8803079fd6
+langcode: es
+status: true
+dependencies: {  }
+name: 768x432
+label: 768x432
+effects:
+  2ac8aed8-eca9-41de-aa89-ba3ac1b3471f:
+    uuid: 2ac8aed8-eca9-41de-aa89-ba3ac1b3471f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 432
+      anchor: center-center

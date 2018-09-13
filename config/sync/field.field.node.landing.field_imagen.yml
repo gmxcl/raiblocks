@@ -1,0 +1,38 @@
+uuid: bb43ecbf-219b-43ae-9f3b-290acb53a1ed
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagen
+    - node.type.landing
+  module:
+    - image
+id: node.landing.field_imagen
+field_name: field_imagen
+entity_type: node
+bundle: landing
+label: Imagen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 9fa6a531-1b5b-4ed6-bc57-92a85b45aa9e
+    alt: ''
+    title: ''
+    width: 3000
+    height: 2000
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

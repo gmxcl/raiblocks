@@ -1,8 +1,9 @@
-uuid: 4612f7fc-5472-42e3-b563-ebb20e18da29
+uuid: 94be42e6-403b-4015-9ca5-c107b40d584c
 langcode: es
-status: true
+status: false
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.landing.field_contenido
     - field.field.node.landing.field_imagen
     - node.type.landing
@@ -10,10 +11,10 @@ dependencies:
     - entity_reference_revisions
     - responsive_bg_image_formatter
     - user
-id: node.landing.default
+id: node.landing.full
 targetEntityType: node
 bundle: landing
-mode: default
+mode: full
 content:
   field_contenido:
     type: entity_reference_revisions_entity_view
@@ -28,7 +29,7 @@ content:
     weight: 102
     label: hidden
     settings:
-      image_style: banner
+      image_style: ''
       css_settings:
         bg_image_selector: .banner
         bg_image_z_index: auto
