@@ -1,45 +1,36 @@
-# Breakpoints importados desde Bootstrap #
+# Breakpoints #
 
-real.screen-xs-max:
-  label: screen-xs-max
-  mediaQuery: 'all and (max-width: 767px)'
+real.mobile:
+  label: Mobile
+  mediaQuery: 'all and (min-width: 0px) and (max-width: 640px)'
+  weight: 0
+  multipliers:
+    - 1x
+
+real.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 641px) and (max-width: 768px)'
   weight: 1
   multipliers:
     - 1x
-    - 2x
-real.screen-sm-min:
-  label: screen-sm-min
-  mediaQuery: 'all and (min-width: 768px)'
+
+real.tablet:
+  label: Tablet
+  mediaQuery: 'all and (min-width: 769px) and (max-width: 1024px)'
   weight: 2
   multipliers:
     - 1x
-    - 2x
-real.screen-sm-max:
-  label: screen-sm-max
-  mediaQuery: 'all and (max-width: 991px)'
+
+real.desktop:
+  label: Desktop
+  mediaQuery: 'all and (min-width: 1025px) and (max-width: 1366px)'
   weight: 3
   multipliers:
     - 1x
-    - 2x
-real.screen-md-min:
-  label: screen-md-min
-  mediaQuery: 'all and (min-width: 992px)'
+
+real.tv:
+  label: TV
+  mediaQuery: 'all and (min-width: 1367px) and (max-width: 1600px)'
   weight: 4
   multipliers:
     - 1x
-    - 2x
-real.screen-md-max:
-  label: screen-md-max
-  mediaQuery: 'all and (max-width: 1199px)'
-  weight: 5
-  multipliers:
-    - 1x
-    - 2x
-real.screen-lg-min:
-  label: screen-lg-min
-  mediaQuery: 'all and (min-width: 1200px)'
-  weight: 6
-  multipliers:
-    - 1x
-    - 2x
-
