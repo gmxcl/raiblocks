@@ -19,8 +19,6 @@ body {
        url('../fonts/OpenSans/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 
-
-
 h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; }
 
 h1 { font-size: 38px; }
@@ -162,16 +160,21 @@ blockquote span {
   color: #fff;
   padding: 120px 0;
   text-align: center;
+  height: 100%;
+}
+
+.landingcontent {
+  padding: 0 0 60px 0;
 }
 
 .paragraph--type--paronecol {
-  padding: 60px 0;
+  padding: 60px 0 0 0;
 }
 .paragraph--type--partwocol {
-  padding: 60px 0;
+  padding: 60px 0 0 0;
 }
 .paragraph--type--parthreecol {
-  padding: 60px 0;
+  padding: 60px 0 0 0;
 }
 /* Styles */
 

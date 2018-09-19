@@ -2,21 +2,21 @@
 
 real.mobile:
   label: Mobile
-  mediaQuery: 'all and (min-width: 0px) and (max-width: 640px)'
+  mediaQuery: 'all and (min-width: 0px) and (max-width: 419px)'
   weight: 0
   multipliers:
     - 1x
 
 real.narrow:
   label: narrow
-  mediaQuery: 'all and (min-width: 641px) and (max-width: 768px)'
+  mediaQuery: 'all and (min-width: 420px) and (max-width: 767px)'
   weight: 1
   multipliers:
     - 1x
 
 real.tablet:
   label: Tablet
-  mediaQuery: 'all and (min-width: 769px) and (max-width: 1024px)'
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 1024px)'
   weight: 2
   multipliers:
     - 1x
