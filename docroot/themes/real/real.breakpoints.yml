@@ -1,36 +1,92 @@
 # Breakpoints #
 
-real.mobile:
-  label: Mobile
-  mediaQuery: 'all and (min-width: 0px) and (max-width: 419px)'
+real.nanomobile:
+  label: Nano Mobile
+  mediaQuery: 'all and (min-width: 0px) and (max-width: 320px)'
   weight: 0
   multipliers:
     - 1x
 
-real.narrow:
-  label: narrow
-  mediaQuery: 'all and (min-width: 420px) and (max-width: 767px)'
+real.smallmobile:
+  label: Small Mobile
+  mediaQuery: 'all and (min-width: 321px) and (max-width: 360px)'
   weight: 1
   multipliers:
     - 1x
 
-real.tablet:
-  label: Tablet
-  mediaQuery: 'all and (min-width: 768px) and (max-width: 1024px)'
+real.middlemobile:
+  label: Middle Mobile
+  mediaQuery: 'all and (min-width: 361px) and (max-width: 375px)'
   weight: 2
   multipliers:
     - 1x
 
-real.desktop:
-  label: Desktop
-  mediaQuery: 'all and (min-width: 1025px) and (max-width: 1366px)'
+real.largemobile:
+  label: Large Mobile
+  mediaQuery: 'all and (min-width: 376px) and (max-width: 414px)'
   weight: 3
   multipliers:
     - 1x
 
-real.tv:
-  label: TV
-  mediaQuery: 'all and (min-width: 1367px) and (max-width: 1600px)'
+real.smalltablet:
+  label: Small Tablet
+  mediaQuery: 'all and (min-width: 415px) and (max-width: 768px)'
   weight: 4
+  multipliers:
+    - 1x
+
+real.middletablet:
+  label: Middle Tablet
+  mediaQuery: 'all and (min-width: 769px) and (max-width: 834px)'
+  weight: 5
+  multipliers:
+    - 1x
+
+real.largetablet:
+  label: Large Tablet
+  mediaQuery: 'all and (min-width: 835px) and (max-width: 950px)'
+  weight: 6
+  multipliers:
+    - 1x
+
+real.ipadpro:
+  label: Ipad Pro Tablet
+  mediaQuery: 'all and (min-width: 951px) and (max-width: 1024px)'
+  weight: 7
+  multipliers:
+    - 1x
+
+real.smalldesktop:
+  label: Small Desktop
+  mediaQuery: 'all and (min-width: 1024px) and (max-width: 1366px)'
+  weight: 8
+  multipliers:
+    - 1x
+
+real.middledesktop:
+  label: Middle Desktop
+  mediaQuery: 'all and (min-width: 1367px) and (max-width: 1536px)'
+  weight: 9
+  multipliers:
+    - 1x
+
+real.largedesktop:
+  label: Large Desktop
+  mediaQuery: 'all and (min-width: 1537px) and (max-width: 1600px)'
+  weight: 10
+  multipliers:
+    - 1x
+
+real.smaltv:
+  label: Small TV
+  mediaQuery: 'all and (min-width: 1601px) and (max-width: 1920px)'
+  weight: 11
+  multipliers:
+    - 1x
+
+real.largetv:
+  label: Large TV
+  mediaQuery: 'all and (min-width: 1921px) and (max-width: 3840px)'
+  weight: 12
   multipliers:
     - 1x
