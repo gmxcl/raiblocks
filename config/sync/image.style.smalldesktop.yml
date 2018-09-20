@@ -1,12 +1,12 @@
-uuid: 877d73c9-65c0-4221-9a44-8af0d6afaebf
+uuid: fe94c574-a843-4fd0-a322-30b8aef4b4ba
 langcode: es
 status: true
 dependencies: {  }
-name: 1366x768
-label: 1366x768
+name: smalldesktop
+label: SmallDesktop
 effects:
-  11239668-3088-4b84-8c37-0f7786724b8a:
-    uuid: 11239668-3088-4b84-8c37-0f7786724b8a
+  c2a69b7e-75e6-49b1-a748-6fd763d7a64c:
+    uuid: c2a69b7e-75e6-49b1-a748-6fd763d7a64c
     id: image_scale_and_crop
     weight: 1
     data:

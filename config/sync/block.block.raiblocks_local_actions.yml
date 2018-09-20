@@ -1,0 +1,20 @@
+uuid: 7a2fba84-46b7-4ecb-8396-468ad1e2f8a9
+langcode: es
+status: true
+dependencies:
+  theme:
+    - raiblocks
+_core:
+  default_config_hash: jwVzprU52BYcT4uAHS4YgDKZVzL91zj4yGC3-yR8cCU
+id: raiblocks_local_actions
+theme: raiblocks
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones primarias de administración'
+  provider: core
+  label_display: '0'
+visibility: {  }

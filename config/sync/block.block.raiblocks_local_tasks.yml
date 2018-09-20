@@ -1,0 +1,22 @@
+uuid: 6fae0586-f84a-4920-9135-6d500f355a7c
+langcode: es
+status: true
+dependencies:
+  theme:
+    - raiblocks
+_core:
+  default_config_hash: Tq4N6yuyG37833nJleapCXTmltJRFdPcFF2VZU7lJeA
+id: raiblocks_local_tasks
+theme: raiblocks
+region: content
+weight: -20
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Pestañas
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

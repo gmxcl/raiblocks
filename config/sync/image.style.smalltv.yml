@@ -1,12 +1,12 @@
-uuid: 5f2d959c-6f75-4e07-b976-9ae021909ccd
+uuid: f5a7dc05-c823-46a0-b68a-c3b04cbb13a2
 langcode: es
 status: true
 dependencies: {  }
-name: 1920x1080
-label: 1920x1080
+name: smalltv
+label: SmallTv
 effects:
-  b58623ce-9750-4564-b7f4-15c63391c2e2:
-    uuid: b58623ce-9750-4564-b7f4-15c63391c2e2
+  4421a424-ecbf-49ef-8381-81ca11f91e9f:
+    uuid: 4421a424-ecbf-49ef-8381-81ca11f91e9f
     id: image_scale_and_crop
     weight: 1
     data:

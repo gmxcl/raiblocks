@@ -1,17 +1,17 @@
-uuid: 26d863f9-d09a-4304-833a-659224b62d77
+uuid: 76f0d613-8a2a-4d0b-8c35-aa18c6be2cfb
 langcode: es
 status: true
 dependencies:
   module:
     - user
   theme:
-    - real
+    - raiblocks
 _core:
-  default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
-id: real_login
-theme: real
-region: auto_hidden_block
-weight: -2
+  default_config_hash: EHCmrmFI5KPOxvmk721SC4VQafjY_VcwD6akL7YZygI
+id: raiblocks_login
+theme: raiblocks
+region: sidebar_first
+weight: -3
 provider: null
 plugin: user_login_block
 settings:

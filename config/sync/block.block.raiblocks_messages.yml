@@ -1,0 +1,22 @@
+uuid: cf9715c3-a22c-456b-a847-7cc839fb9186
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - raiblocks
+_core:
+  default_config_hash: Z--Q1ACynJcuqxKJVDby7dca3wpUikCeBGb1aCu76cc
+id: raiblocks_messages
+theme: raiblocks
+region: messages
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  provider: system
+  label_display: '0'
+visibility: {  }

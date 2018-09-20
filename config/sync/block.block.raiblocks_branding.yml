@@ -1,0 +1,25 @@
+uuid: 33ba0d05-1e0e-4c61-9e39-7745e1d8d686
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - raiblocks
+_core:
+  default_config_hash: WobWXpeGU5Kyuw9ljwgzW3JyQjdkp_z7uw-BnSy7atc
+id: raiblocks_branding
+theme: raiblocks
+region: header
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

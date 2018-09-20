@@ -1,4 +1,4 @@
-uuid: 8b6cd684-e161-48fd-845a-8fc69ef00884
+uuid: 29e67e4a-422a-458b-a2ea-d1c7d16ad975
 langcode: es
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - real
+    - raiblocks
 _core:
-  default_config_hash: xCOijLdB1-UgXxQ9a0D1_pd8vxNEhfMnxXZc8jYhHjs
-id: real_tools
-theme: real
-region: auto_hidden_block
-weight: -3
+  default_config_hash: gdGMW-Om52gj4BNKXLGSmtY0XVUeQBG-peu-OvIzq1I
+id: raiblocks_tools
+theme: raiblocks
+region: sidebar_first
+weight: -4
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
