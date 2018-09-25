@@ -21,9 +21,9 @@
   </div>
 </div>
 
+<!-- Start: Banner -->
   <header class="main-header">
-  <!-- Start: Banner -->
-    {% if page.banner %}
+   {% if page.banner %}
     <div class="banner">
       <div class="container-fluid">
           <div class="row">
@@ -33,23 +33,24 @@
           </div>
       </div>
     </div>
-    {% endif %}
-  <!-- End: Banner -->
+   {% endif %}
+  </header>
+<!-- End: Banner -->
 
-  <!--- Start Messages -->
-    {% if page.messages %}
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
+<!--- Start Messages -->
+  {% if page.messages %}
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mensajes">
               {{ page.messages }}
             </div>
           </div>
-      </div>
-    {% endif %}
-  <!---End Messages -->
+        </div>
+    </div>
+  {% endif %}
+<!---End Messages -->
 
-
-</header>
 
   <!-- start container -->
 

@@ -21,12 +21,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; }
 
-h1 { font-size: 38px; }
-h2 { font-size: 30px; }
-h3 { font-size: 25px; }
-h4 { font-size: 22px; }
-h5 { font-size: 20px; }
-h6 { font-size: 18px; }
 
 /* Make images to keep proportion */
 img { max-width: 100%; }
@@ -41,7 +35,7 @@ a { color: #F47B39;}
 a:hover { color: #F8935A;}
 a.is-active { color: #F8935A;}
 
-.content { padding: 10px 15px 50px 15px; }
+.content { padding: 20px 15px 20px 15px; }
 
 .footer {
   background-color: #333031;
@@ -155,35 +149,16 @@ blockquote span {
 
 /* Styles */
 
+/** Banner **/
+
 .banner {
   background-color: #333031;
+/*   background-size: cover; */
   color: #fff;
-  padding: 120px 0;
-  text-align: center;
-  height: 100%;
-}
-
-.landingcontent {
-  padding: 0 0 60px 0;
-}
-
-.paragraph--type--paronecol {
-  padding: 60px 0 0 0;
-}
-.paragraph--type--partwocol {
-  padding: 60px 0 0 0;
-}
-.paragraph--type--parthreecol {
-  padding: 60px 0 0 0;
-}
-/* Styles */
-
-/** Banner **/
-.banner {
-  text-align: center;
-  line-height: 160%;
   padding: 190px 0;
+  text-align: center;
   height: 100%;
+  line-height: 160%;
 }
 
 .banner h2 {
@@ -192,3 +167,22 @@ blockquote span {
   color: #fff;
 }
 /** Banner ends **/
+
+.mensajes {
+  padding: 10px 0 10px 0;
+}
+
+.landingcontent {
+  padding: 30px 0 30px 0;
+}
+
+.paragraph--type--paronecol {
+  padding: 30px 0 30px 0;
+}
+.paragraph--type--partwocol {
+  padding: 30px 0 30px 0;
+}
+.paragraph--type--parthreecol {
+  padding: 30px 0 30px 0;
+}
+/* Styles */

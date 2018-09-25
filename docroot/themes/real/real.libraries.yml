@@ -5,23 +5,16 @@ bootstrap:
       includes/bootstrap/css/bootstrap.min.css: {}
   js:
     includes/bootstrap/js/bootstrap.min.js: {}
-  dependencies:
-    - core/jquery
-    - core/drupal.ajax
-    - core/drupal
-    - core/drupalSettings
-    - core/jquery.once
 
 global-components:
   Version: 1.x
   css:
     theme:
-      css/custom-style.css: {}
-      css/font-awesome.css: {}
-      css/extra.css: {}
-      css/large.css: {}
-      css/medium.css: {}
-      css/small.css: {}
+      css/global.css: {}
+      css/mobile.css: {}
+      css/tablet.css: {}
+      css/desktop.css: {}
+      css/tv.css: {}
   js:
     js/custom.js: {}
   dependencies:
@@ -30,3 +23,10 @@ global-components:
     - core/drupal
     - core/drupalSettings
     - core/jquery.once
+
+font-awesome:
+  Version: 1.x
+  css:
+    theme:
+      css/font-awesome.css: {}
+      css/font-awesome.min.css: {}

@@ -1,0 +1,31 @@
+/* Medium devices (tablets 416 to 950 pixels) */
+
+@media (min-width: 950px) {
+  
+    
+h1 { font-size: 3em; }
+h2 { font-size: 30px; }
+h3 { font-size: 25px; }
+h4 { font-size: 22px; }
+h5 { font-size: 20px; }
+h6 { font-size: 18px; }
+  
+  
+  
+.tabs a {font-size: 14px;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
