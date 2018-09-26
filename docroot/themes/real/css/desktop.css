@@ -1,14 +1,10 @@
 /* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {
-    
-
-
-
+@media (min-width:951px) and (max-width:1600px) {
 
 
 h1 { font-size: 4em; }
-h2 { font-size: 30px; }
+h2 { font-size: 3em; }
 h3 { font-size: 25px; }
 h4 { font-size: 22px; }
 h5 { font-size: 20px; }
