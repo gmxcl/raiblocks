@@ -124,16 +124,16 @@
         },
         {
             "name": "chi-teck/drupal-code-generator",
-            "version": "1.26.0",
+            "version": "1.26.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974"
+                "reference": "1f80a46a4d820690ef3374001f8304878b73a549"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974",
-                "reference": "3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974",
+                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/1f80a46a4d820690ef3374001f8304878b73a549",
+                "reference": "1f80a46a4d820690ef3374001f8304878b73a549",
                 "shasum": ""
             },
             "require": {
@@ -146,6 +146,11 @@
                 "bin/dcg"
             ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
             "autoload": {
                 "files": [
                     "src/bootstrap.php"
@@ -159,7 +164,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal code generator",
-            "time": "2018-08-06T08:54:16+00:00"
+            "time": "2018-09-26T04:06:26+00:00"
         },
         {
             "name": "composer/installers",
@@ -345,16 +350,16 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "2.8.5",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "1e8ff512072422b850b44aa721b5b303e4a5ebb3"
+                "reference": "4bdbb8fa149e1cc1511bd77b0bc4729fd66bccac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/1e8ff512072422b850b44aa721b5b303e4a5ebb3",
-                "reference": "1e8ff512072422b850b44aa721b5b303e4a5ebb3",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/4bdbb8fa149e1cc1511bd77b0bc4729fd66bccac",
+                "reference": "4bdbb8fa149e1cc1511bd77b0bc4729fd66bccac",
                 "shasum": ""
             },
             "require": {
@@ -393,7 +398,7 @@
                 }
             ],
             "description": "Initialize Symfony Console commands from annotated command class methods.",
-            "time": "2018-08-18T23:51:49+00:00"
+            "time": "2018-09-19T17:47:18+00:00"
         },
         {
             "name": "consolidation/config",
@@ -686,16 +691,16 @@
         },
         {
             "name": "consolidation/site-alias",
-            "version": "1.1.2",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/site-alias.git",
-                "reference": "d6fa92e4aaf5ba95cde4454be7ea3165e7e2f17a"
+                "reference": "247f3e52604b9d76a075e6c06d5d1dd73bbae892"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/site-alias/zipball/d6fa92e4aaf5ba95cde4454be7ea3165e7e2f17a",
-                "reference": "d6fa92e4aaf5ba95cde4454be7ea3165e7e2f17a",
+                "url": "https://api.github.com/repos/consolidation/site-alias/zipball/247f3e52604b9d76a075e6c06d5d1dd73bbae892",
+                "reference": "247f3e52604b9d76a075e6c06d5d1dd73bbae892",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +743,7 @@
                 }
             ],
             "description": "Template project for PHP libraries.",
-            "time": "2018-08-22T01:07:08+00:00"
+            "time": "2018-09-22T04:11:38+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -3000,7 +3005,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1527241084",
+                    "datestamp": "1527243208",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3455,17 +3460,17 @@
         },
         {
             "name": "drupal/token",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/token",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "fd8d854eaa3fd7698694f4d9a9d66dc437e19cd0"
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "6382a7e1aabbd8246f1117a26bf4916d285b401d"
             },
             "require": {
                 "drupal/core": "^8.5"
@@ -3476,8 +3481,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1536408480",
+                    "version": "8.x-1.5",
+                    "datestamp": "1537557481",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3836,16 +3841,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "1.2.14",
+            "version": "1.2.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "5642614492f0ca2064c01d60cc33284cc2f731a9"
+                "reference": "758a77525bdaabd6c0f5669176bd4361cb2dda9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/5642614492f0ca2064c01d60cc33284cc2f731a9",
-                "reference": "5642614492f0ca2064c01d60cc33284cc2f731a9",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/758a77525bdaabd6c0f5669176bd4361cb2dda9e",
+                "reference": "758a77525bdaabd6c0f5669176bd4361cb2dda9e",
                 "shasum": ""
             },
             "require": {
@@ -3884,7 +3889,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2017-02-03T22:48:59+00:00"
+            "time": "2018-09-25T20:59:41+00:00"
         },
         {
             "name": "g1a/composer-test-scenarios",
@@ -4476,16 +4481,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.0.3",
+            "version": "v4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "bd088dc940a418f09cda079a9b5c7c478890fb8d"
+                "reference": "fa6ee28600d21d49b2b4e1006b48426cec8e579c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/bd088dc940a418f09cda079a9b5c7c478890fb8d",
-                "reference": "bd088dc940a418f09cda079a9b5c7c478890fb8d",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/fa6ee28600d21d49b2b4e1006b48426cec8e579c",
+                "reference": "fa6ee28600d21d49b2b4e1006b48426cec8e579c",
                 "shasum": ""
             },
             "require": {
@@ -4523,7 +4528,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-07-15T17:25:16+00:00"
+            "time": "2018-09-18T07:03:24+00:00"
         },
         {
             "name": "paragonie/random_compat",

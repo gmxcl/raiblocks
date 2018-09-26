@@ -4,16 +4,16 @@ status: true
 dependencies:
   config:
     - image.style.focalpointlargemobile
+    - image.style.focalpointmiddledesktop
     - image.style.focalpointmiddlemobile
     - image.style.focalpointnanomobile
+    - image.style.focalpointsmalldesktop
     - image.style.focalpointsmallmobile
     - image.style.ipadpro
     - image.style.largedesktop
     - image.style.largetablet
     - image.style.largetv
-    - image.style.middledesktop
     - image.style.middletablet
-    - image.style.smalldesktop
     - image.style.smalltablet
     - image.style.smalltv
   theme:
@@ -40,12 +40,12 @@ image_style_mappings:
     breakpoint_id: real.middledesktop
     multiplier: 1x
     image_mapping_type: image_style
-    image_mapping: middledesktop
+    image_mapping: focalpointmiddledesktop
   -
     breakpoint_id: real.smalldesktop
     multiplier: 1x
     image_mapping_type: image_style
-    image_mapping: smalldesktop
+    image_mapping: focalpointsmalldesktop
   -
     breakpoint_id: real.ipadpro
     multiplier: 1x

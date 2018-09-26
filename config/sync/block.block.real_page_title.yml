@@ -9,7 +9,7 @@ _core:
 id: real_page_title
 theme: real
 region: banner
-weight: -3
+weight: -4
 provider: null
 plugin: page_title_block
 settings:

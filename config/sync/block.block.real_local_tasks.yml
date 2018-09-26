@@ -8,8 +8,8 @@ _core:
   default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
 id: real_local_tasks
 theme: real
-region: banner
-weight: -2
+region: messages
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:
